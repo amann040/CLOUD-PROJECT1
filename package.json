@@ -1,0 +1,21 @@
+{
+  "name": "e-learning-platform",
+  "version": "3.0.0",
+  "description": "Comprehensive scalable e-learning platform using cloud concepts",
+  "main": "app-enhanced.js",
+  "scripts": {
+    "start": "node app-enhanced.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^4.18.2",
+    "lowdb": "^1.0.0"
+  },
+  "links": {
+    "login": "/login",
+    "register": "/register",
+    "dashboard": "/dashboard",
+    "api": "/api",
+    "readme": "README.md"
+  }
+}
